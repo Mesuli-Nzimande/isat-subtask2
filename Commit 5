@@ -1,0 +1,6 @@
+void demo() {
+    srand(static_cast<unsigned>(time(0)));
+    int random_number = rand() % 100;
+    cout << "Generated random number: " << random_number << endl;
+    cout << "The binary equivalent of " << random_number << " is " << decimalToBinary(random_number) << endl;
+}

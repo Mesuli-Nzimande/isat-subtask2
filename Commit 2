@@ -1,0 +1,7 @@
+void convertBinaryToDecimal() {
+    string binary;
+    cout << "Enter a binary number: ";
+    cin >> binary;
+    int decimal = binaryToDecimal(binary);
+    cout << "The decimal equivalent of " << binary << " is " << decimal << endl;
+}

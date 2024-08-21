@@ -1,0 +1,6 @@
+void convertDecimalToHexadecimal() {
+    int decimal;
+    cout << "Enter a decimal number: ";
+    cin >> decimal;
+    cout << "The hexadecimal equivalent of " << decimal << " is " << decimalToHexadecimal(decimal) << endl;
+}
